@@ -1,0 +1,61 @@
+.App {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.task-create {
+    width: 450px;
+}
+
+
+.task-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.task-label {
+    margin: 10px 0;
+}
+
+.task-input {
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px
+}
+
+.task-button {
+    color: white;
+    background-color: blue;
+    border: 1px solid green;
+    border-radius: 8px;
+    padding: 8px;
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.task-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.task-show{
+    border: 1px solid black;
+    border-radius: 30px;
+    width: 350px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+.btn-delete {
+    width: 60px;
+    color: white;
+    background-color: red;
+    border: none;
+    border-radius: 30px;
+    padding: 5px;
+    font-size: 15px;
+}
